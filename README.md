@@ -16,6 +16,11 @@ The goal is to gather relevant info on Terraform templates to learn how to work 
   - Creates ResourceGroup, Vnet, Subnets, PublicIP, NetworkInterface resources and deploys a **B1ls VM instance** to Azure and run some installation scripts to configure Docker automatically.
   - Features: basic Azure provider resources, TF variables, TF outputs, Env. variables, scripts
 
+- Azure_multi-user_RG_creation:
+
+  - Automates multiple Azure resource groups creation for **multi-user isolation**
+  - Features: TF modules, TF variables, TF outputs, TF data
+
 ## Getting Started
 
 ### 1. Setup environment variable and cd to the project folder
@@ -23,7 +28,7 @@ The goal is to gather relevant info on Terraform templates to learn how to work 
 ```sh
 cp script-env.sample script-env
 # Modify the script-env file and source it
-source ../script-env
+source script-env
 cd <project_folder>
 ```
 

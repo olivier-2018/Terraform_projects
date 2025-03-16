@@ -1,0 +1,18 @@
+# This file contains the variables that are used in the main.tf file
+# The variables are used to create the resource groups in Azure
+# IMPORTANT: The users must must have a UPN in Azure AD 
+resourcegroup_cfg = [
+  {
+    name = "TF_resource_group1"
+    user = [<email_user1>,<email_user2>,<email_user3>]  # Specify here email for each user to be added to the resource group
+  },
+    {
+    name = "TF_resource_group2"
+    user = [<email_user4>,<email_user5>,<email_user6>]
+  },
+    {
+    name = "TF_resource_group3"
+    user = [<email_user7>,<email_user8>,....]
+  },
+]
+
