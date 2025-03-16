@@ -1,0 +1,9 @@
+#!/bin/bash
+# Terraform will search for env variable tarting with "TF_VAR_" and use them as input variables
+# The following variables are used in the terraform configuration
+export TF_VAR_host_ip=$(curl -s ifconfig.me)"/32"
+export TF_VAR_azure_subscriptionid=<YOUR_SUBSCRIPTION_ID>
+export TF_VAR_my_azure_location=<YOUR_AZURE_LOCATION>
+export TF_VAR_secret_email=<YOUR_USER_EMAIL>
+export TF_VAR_sshkey_location=<YOUR_PRIVATE_SSH_KEY_LOCATION>
+

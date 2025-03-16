@@ -1,0 +1,11 @@
+.terraform.lock.hcl
+.terraform
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfvars
+*.tfplan
+.terraform/
+script-env
+
+list_resourcegroups.auto.tfvars
