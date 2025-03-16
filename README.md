@@ -21,6 +21,11 @@ The goal is to gather relevant info on Terraform templates to learn how to work 
   - Automates multiple Azure resource groups creation for **multi-user isolation**
   - Features: TF modules, TF variables, TF outputs, TF data
 
+- Azure_K8s_cluster_deployment:
+
+  - Creates basic Azure resources and deploys a **Kubernetes cluster** in Azure
+  - Feature: TF Kubernetes resources, outputs
+
 ## Getting Started
 
 ### 1. Setup environment variable and cd to the project folder
