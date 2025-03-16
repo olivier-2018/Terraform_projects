@@ -1,6 +1,7 @@
-# Terraform with Azure Kubernetes Service (AKS)
+# Terraform projects
 
-This README provides a high-level overview of using Terraform to manage Azure Kubernetes Service (AKS) resources.
+This repository gathers a bunch of Terraform projects used with various cloud providers.
+The goal is to gather relevant info on Terraform templates to learn how to work with different cloud providers (initially Azure).
 
 ## Prerequisites
 
@@ -9,6 +10,11 @@ This README provides a high-level overview of using Terraform to manage Azure Ku
 - An Azure subscription
 
 ## Projects description and features
+
+- Azure_VM_deployment:
+
+  - Creates ResourceGroup, Vnet, Subnets, PublicIP, NetworkInterface resources and deploys a **B1ls VM instance** to Azure and run some installation scripts to configure Docker automatically.
+  - Features: basic Azure provider resources, TF variables, TF outputs, Env. variables, scripts
 
 ## Getting Started
 
